@@ -1,0 +1,31 @@
+import turtle
+
+def draw_mcdonalds_logo():
+    turtle.speed(2)
+    
+    # at the beginning it shows the initial settings
+    turtle.penup()
+    turtle.goto(-50, 0)
+    turtle.pendown/90
+    
+    # first arc
+    turtle.color("red")
+    turtle.circle(50, -180)
+    
+    # next arc 
+    turtle.penup()
+    turtle.goto(50, 0)
+    turtle.pendown()
+    
+    # draw next arc
+    turtle.color("yellow")
+    turtle.circle(50, 180)
+    
+    # stop drawing
+    turtle.hideturtle()
+    
+    # stop
+    turtle.done()
+    
+    # start function
+    draw_mcdonalds_logo()  
